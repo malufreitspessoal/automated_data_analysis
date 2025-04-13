@@ -6,7 +6,7 @@ import os
 
 # titulo da minha página
 st.title("📊 Análise automática dos dados")
-st.markdown('### Esta ferramenta permite que você carregue um conjunto de dados (.xls ou .csv) e realiza automaticamente uma análise exploratória. Ela oferece uma visão geral dos dados com estatísticas descritivas e visualizações interativas, como histogramas, gráficos de dispersão e boxplots, ajudando você a identificar padrões e insights de forma simples.')
+st.text(' Esta ferramenta permite que você carregue um conjunto de dados (.xls ou .csv) e realiza automaticamente uma análise exploratória. Ela oferece uma visão geral dos dados com estatísticas descritivas e visualizações interativas, como histogramas, gráficos de dispersão e boxplots, ajudando você a identificar padrões e insights de forma simples.')
 
 def verificar_extensao(nome_arquivo, extensao_arquivo):
     _, extensao = os.path.splitext(nome_arquivo)
